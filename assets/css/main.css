@@ -132,7 +132,6 @@ input, select, textarea {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
 		text-transform: uppercase;
 	}
 
@@ -2397,6 +2396,16 @@ input, select, textarea {
 
 					#header nav ul li.current > a {
 						font-weight: 900;
+					}
+
+					#header nav ul li.currentother > a {
+						font-weight: 900;
+						color: black;
+					}
+
+					#header nav ul li.noncurrent > a {
+						
+						color: black;
 					}
 
 		#header.reveal {
